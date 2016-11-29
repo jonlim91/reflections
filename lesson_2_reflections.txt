@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The staging area is what you plan on adding to the commit. The working directory
+is what you currently have, but you might not want to add all of that to the
+commit and all of the files there might not be conceptually related. The files
+you add to the staging area will eventually be part of the commit stored in the
+repository.
