@@ -5,3 +5,11 @@ is what you currently have, but you might not want to add all of that to the
 commit and all of the files there might not be conceptually related. The files
 you add to the staging area will eventually be part of the commit stored in the
 repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Add a file from your working directory to the staging area for each logical change. Then, you can use git diff to see what you've changed. Before you commit it, you can do git diff --staged to see how what's in the staging area differs from whatever commit you have checked out in your repo. Then, add it to the repo using git commit and add the commit notes. You can do this for each logical change you plan on making so that the other stuff isn't affected.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to create a modified version of your existing project, you can create a branch so that your original is untouched, or so you can come back to it when you want. Branches allow you to make side changes without the risk of messing up your branch and gives you more flexibility in the features you can implement.
