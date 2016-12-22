@@ -6,12 +6,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    If Git always updated automatically, you might lose your local changes. Also, any changes pushed to the remote repo might have bugs which would then get added into your working environment. Pulls from the remote repo might conflict with the branch you're working on locally.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks allow you to add an existing repo to one you own so that you can give credit to users for their work. Cloning allows you to copy a repo to your local directory. Branches can exist in the local directory, staging directory, working directory, and remote repro. You should fork a repo to save yourself having to copy and clone it. Create branches in your local directory to make incremental changes or experiment, then push them to your remote repro. Clone repos so that you can make changes to them locally and update the remote repo.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
