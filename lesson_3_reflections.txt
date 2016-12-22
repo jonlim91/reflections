@@ -1,7 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    Using a remote repo is better than keeping your work locally in case you plan on using multiple devices because it allows you to push/pull easily, protects against device failures, and makes it easier to share repos with other developers.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
