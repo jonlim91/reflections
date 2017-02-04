@@ -17,3 +17,11 @@ If you want to create a modified version of your existing project, you can creat
 How do the diagrams help you visualize the branch structure?
 
 The diagrams let you see where each group of commits comes from logically and helps you keep track of which changes exist in which branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+You combine the changes made from each branch into one commit (that will update whichever branch you currently have checked out). The diagram shows that the commit refers to the latest commit in each branch and has access to the history of both.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Being able to merge manually allows you to keep separate branches so you can test new things while keeping your stable version up to date. Automatic merging would limit what you can experiment with, but would make it simpler and easier to follow the different branches. When and which branches to merge would be the deciding factor of the success of automatic merging.

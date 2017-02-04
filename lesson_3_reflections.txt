@@ -16,7 +16,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can easily make changes based on the most updated version of the remote branch even if you don't have internet access. Also, it's easy to see where you have conflicting changes with your local version and merge the latest branch with your current one before pushing your local changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
